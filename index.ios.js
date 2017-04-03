@@ -3,7 +3,6 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
-  Navigator,
   View
 } from 'react-native';
 import Splash from './Splash';
@@ -14,10 +13,6 @@ export default class splashLogin extends Component {
   render() {
     return (
     <Login />
-    <Navigator
-      initalRoute={{name: 'login'}}
-      renderScene={this.renderScene}
-      />
     );
   }
 }
